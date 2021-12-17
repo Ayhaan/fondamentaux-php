@@ -52,13 +52,13 @@
     "age"     => 24,
     "code"    => true,
   );
-  echo $idendite['id'];
-  echo $idendite['prenom'];
-  echo 'Bonjour' . " " . $idendite["prenom"] . " !";
+  echo $identite['id'];
+  echo $identite['prenom'];
+  echo 'Bonjour' . " " . $identite["prenom"] . " !";
 
   //  cette façon de faire est la manière classique de créer des tableaux (moins utilisé en backend)
-  $idenditeB = array(1, "Elias");
-  echo $idenditeB[1];
+  $identiteB = array(1, "Elias");
+  echo $identiteB[1];
 
   // ---------- STRUCTURE DE CONTROLE ----------
   // condition IF ELSEIF IF
